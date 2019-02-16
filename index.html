@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Rock paper Scissor</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+	<center>
+		<h1>Rock Paper Scissor</h1>
+	</center>
+	
+	<center>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class = "container">
+		<div class = "row">
+			<div class = "col-lg-4">
+				<h3>You</h3>
+			</div>
+			<div class="col-lg-4">
+				<h3 id = "result"> vs</h3>
+			</div>
+			<div class="col-lg-4">
+				<h3>Computer</h3>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3>Choose Your Move</h3>
+		<hr>
+		</div>
+		</center>
+		<br>
+			<div class = "row">
+				<div class = "col-lg-4">
+				<center>
+				<button type = "button" class = "btn" onclick = "checkResult(0)"><img id = "rock" src = "assets/rock.png"></button>
+				</center>
+				</div>
+				<div class = "col-lg-4">
+				<center>
+				<button type = "button" class = "btn" onclick = "checkresult(1)"><img id = "paper" src = "assets/paper.png"></button>
+				</center>
+				</div>
+				<div class = "col-lg-4">
+				<center>
+				<button type = "button" class = "btn" onclick = "checkresult(2)"><img id = "scissors" src = "assets/scissors.png"></button>
+				</center>
+		</div>
+	</div> 
 
+<!--BootStrap CDN-->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </body>
 </html>
